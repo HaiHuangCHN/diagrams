@@ -29,10 +29,7 @@
         <mxCell id="sS4oUDZ3pTjtGtMIdjDM-13" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sS4oUDZ3pTjtGtMIdjDM-19" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="637" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="sS4oUDZ3pTjtGtMIdjDM-20" value="&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;写入时，加分布式锁&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=hatch;strokeColor=#004C99;shadow=1;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="sS4oUDZ3pTjtGtMIdjDM-20" value="&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;写入时，加分布式锁&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 76, 153);&quot;&gt;失败时，回滚 MySQL 并报错&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=hatch;strokeColor=#004C99;shadow=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="170" height="200" as="geometry" />
         </mxCell>
       </root>
