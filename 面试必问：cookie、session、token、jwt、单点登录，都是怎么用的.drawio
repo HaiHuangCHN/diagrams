@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="lK4b7JDRvBtxCrFtynsC">
-    <mxGraphModel dx="925" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="717" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,8 +68,8 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-14" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="195" as="sourcePoint" />
-            <mxPoint x="150" y="195" as="targetPoint" />
+            <mxPoint x="370" y="173" as="sourcePoint" />
+            <mxPoint x="150" y="173" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-15" value="重定向到 SSO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-14">
@@ -79,15 +79,13 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="143" as="sourcePoint" />
-            <mxPoint x="380" y="183" as="targetPoint" />
+            <mxPoint x="380" y="140" as="sourcePoint" />
+            <mxPoint x="380" y="167" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="410" y="143" />
-              <mxPoint x="410" y="160" />
-              <mxPoint x="410" y="170" />
-              <mxPoint x="410" y="180" />
-              <mxPoint x="410" y="183" />
-              <mxPoint x="400" y="183" />
+              <mxPoint x="410" y="140" />
+              <mxPoint x="410" y="157" />
+              <mxPoint x="410" y="167" />
+              <mxPoint x="400" y="167" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -98,8 +96,8 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="148" y="268" as="sourcePoint" />
-            <mxPoint x="806" y="268" as="targetPoint" />
+            <mxPoint x="148" y="230" as="sourcePoint" />
+            <mxPoint x="806" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-21" value="访问 SSO，无 Cookie" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-20">
@@ -109,15 +107,13 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="820" y="278" as="sourcePoint" />
-            <mxPoint x="820" y="318" as="targetPoint" />
+            <mxPoint x="820" y="240" as="sourcePoint" />
+            <mxPoint x="820" y="264" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="850" y="278" />
-              <mxPoint x="850" y="295" />
-              <mxPoint x="850" y="305" />
-              <mxPoint x="850" y="315" />
-              <mxPoint x="850" y="318" />
-              <mxPoint x="840" y="318" />
+              <mxPoint x="850" y="240" />
+              <mxPoint x="850" y="257" />
+              <mxPoint x="850" y="264" />
+              <mxPoint x="840" y="264" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -128,8 +124,8 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-25" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="808" y="330" as="sourcePoint" />
-            <mxPoint x="148" y="330" as="targetPoint" />
+            <mxPoint x="808" y="269" as="sourcePoint" />
+            <mxPoint x="148" y="269" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-26" value="需要登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-25">
@@ -139,8 +135,8 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="148" y="402" as="sourcePoint" />
-            <mxPoint x="806" y="402" as="targetPoint" />
+            <mxPoint x="148" y="329" as="sourcePoint" />
+            <mxPoint x="806" y="329" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-28" value="输入账号密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-27">
@@ -150,32 +146,70 @@
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-29" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="808" y="465" as="sourcePoint" />
-            <mxPoint x="148" y="465" as="targetPoint" />
+            <mxPoint x="808" y="371" as="sourcePoint" />
+            <mxPoint x="148" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL996E9YZMnouKgxVXlB-30" value="需要登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-29">
+        <mxCell id="GL996E9YZMnouKgxVXlB-30" value="URL 带 code 重定向到系统A Callback&lt;div&gt;种 SSO 域 Cookie&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-29">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="-325" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="823" y="417" as="sourcePoint" />
-            <mxPoint x="823" y="457" as="targetPoint" />
+            <mxPoint x="823" y="341" as="sourcePoint" />
+            <mxPoint x="823" y="364" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="853" y="417" />
-              <mxPoint x="853" y="434" />
-              <mxPoint x="853" y="444" />
-              <mxPoint x="853" y="454" />
-              <mxPoint x="853" y="457" />
-              <mxPoint x="843" y="457" />
+              <mxPoint x="853" y="341" />
+              <mxPoint x="853" y="358" />
+              <mxPoint x="853" y="364" />
+              <mxPoint x="850" y="364" />
+              <mxPoint x="843" y="364" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GL996E9YZMnouKgxVXlB-32" value="校验用户名密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-31">
           <mxGeometry x="-0.0168" y="-1" relative="1" as="geometry">
             <mxPoint x="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="148" y="696" as="sourcePoint" />
+            <mxPoint x="806" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-35" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="808" y="740" as="sourcePoint" />
+            <mxPoint x="148" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-36" value="需要登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-35">
+          <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
+            <mxPoint x="-325" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="148" y="433" as="sourcePoint" />
+            <mxPoint x="370" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-38" value="访问系统A Callback，带 code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-37">
+          <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
+            <mxPoint x="32" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="372" y="450" as="sourcePoint" />
+            <mxPoint x="804" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GL996E9YZMnouKgxVXlB-40" value="校验 code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GL996E9YZMnouKgxVXlB-39">
+          <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
+            <mxPoint x="-33" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
