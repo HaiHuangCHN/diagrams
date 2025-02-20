@@ -429,7 +429,7 @@
             <mxPoint x="970" y="1462" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL996E9YZMnouKgxVXlB-77" value="换取 ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-76" vertex="1" connectable="0">
+        <mxCell id="GL996E9YZMnouKgxVXlB-77" value="换取 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-76" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="-24" as="offset" />
           </mxGeometry>
