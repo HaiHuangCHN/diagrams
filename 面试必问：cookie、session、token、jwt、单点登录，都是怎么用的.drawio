@@ -440,7 +440,7 @@
             <mxPoint x="528" y="1487" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL996E9YZMnouKgxVXlB-79" value="重定向到系统B页面&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;种B域 cookie（ticket）&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-78" vertex="1" connectable="0">
+        <mxCell id="GL996E9YZMnouKgxVXlB-79" value="重定向到系统B原页面&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;种B域 cookie（&lt;/span&gt;token&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-78" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="41" as="offset" />
           </mxGeometry>
@@ -469,7 +469,7 @@
             <mxPoint x="960" y="1547" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL996E9YZMnouKgxVXlB-83" value="访问系统B，带 B 域 cookie（ticket）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-82" vertex="1" connectable="0">
+        <mxCell id="GL996E9YZMnouKgxVXlB-83" value="访问系统B，带 B 域 cookie（token）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-82" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="179" y="-1" as="offset" />
           </mxGeometry>
@@ -480,7 +480,7 @@
             <mxPoint x="1182" y="1562" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GL996E9YZMnouKgxVXlB-85" value="校验 ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-84" vertex="1" connectable="0">
+        <mxCell id="GL996E9YZMnouKgxVXlB-85" value="校验 token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="GL996E9YZMnouKgxVXlB-84" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="49" y="-1" as="offset" />
           </mxGeometry>
