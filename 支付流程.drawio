@@ -72,7 +72,7 @@
             <mxPoint x="530" y="613" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vybOab_Kj2c5safNkpu3-14" value="返回订单信息&lt;div&gt;（单号 / 订单简要内容等）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-13">
+        <mxCell id="vybOab_Kj2c5safNkpu3-14" value="返回订单信息&lt;div&gt;（单号 / 订单简要内容 / 订单明细等）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-13">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="-35" as="offset" />
           </mxGeometry>
