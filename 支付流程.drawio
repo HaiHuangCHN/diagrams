@@ -61,7 +61,7 @@
             <mxPoint x="750" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vybOab_Kj2c5safNkpu3-12" value="发起支付请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-11">
+        <mxCell id="vybOab_Kj2c5safNkpu3-12" value="发起支付请求&lt;div&gt;（携带单号）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-11">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="32" y="-1" as="offset" />
           </mxGeometry>
@@ -511,8 +511,8 @@
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-88" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="750" y="663" as="sourcePoint" />
-            <mxPoint x="530" y="663" as="targetPoint" />
+            <mxPoint x="750" y="672" as="sourcePoint" />
+            <mxPoint x="530" y="672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-89" value="返回支付信息&lt;div&gt;（金额 / 币种 / 条目等）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-88">
@@ -522,13 +522,13 @@
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="630" as="sourcePoint" />
-            <mxPoint x="760" y="657" as="targetPoint" />
+            <mxPoint x="760" y="639" as="sourcePoint" />
+            <mxPoint x="760" y="666" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="790" y="630" />
-              <mxPoint x="790" y="647" />
-              <mxPoint x="790" y="657" />
-              <mxPoint x="780" y="657" />
+              <mxPoint x="790" y="639" />
+              <mxPoint x="790" y="656" />
+              <mxPoint x="790" y="666" />
+              <mxPoint x="780" y="666" />
             </Array>
           </mxGeometry>
         </mxCell>
