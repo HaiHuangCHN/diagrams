@@ -9,20 +9,6 @@
             <mxPoint x="528" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vybOab_Kj2c5safNkpu3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="vybOab_Kj2c5safNkpu3-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="1160" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="440" y="495" />
-              <mxPoint x="440" y="1160" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vybOab_Kj2c5safNkpu3-3" value="A系统引发登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-2">
-          <mxGeometry x="-0.0552" y="-1" relative="1" as="geometry">
-            <mxPoint y="12" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-4" value="用户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="483" y="480" width="90" height="30" as="geometry" />
         </mxCell>
@@ -295,21 +281,6 @@
         <mxCell id="vybOab_Kj2c5safNkpu3-53" value="业务返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-52">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="-40" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vybOab_Kj2c5safNkpu3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="1760" as="targetPoint" />
-            <mxPoint x="480" y="1173" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="440" y="1173" />
-              <mxPoint x="440" y="1760" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="vybOab_Kj2c5safNkpu3-55" value="B系统无须登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vybOab_Kj2c5safNkpu3-54">
-          <mxGeometry x="-0.0552" y="-1" relative="1" as="geometry">
-            <mxPoint y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
