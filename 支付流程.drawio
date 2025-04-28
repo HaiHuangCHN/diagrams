@@ -308,8 +308,8 @@
         </mxCell>
         <mxCell id="nQ_erUF6OL6yrrvTOKQU-5" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="967" y="1155" as="sourcePoint" />
-            <mxPoint x="760" y="1155" as="targetPoint" />
+            <mxPoint x="967" y="1160" as="sourcePoint" />
+            <mxPoint x="760" y="1160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nQ_erUF6OL6yrrvTOKQU-6" value="存储支付结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nQ_erUF6OL6yrrvTOKQU-5">
