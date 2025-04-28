@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="jCKyARXtS3_KU_H70kB-">
-    <mxGraphModel dx="2156" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2267" dy="1456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,11 +35,11 @@
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="vybOab_Kj2c5safNkpu3-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1188" y="1760" as="targetPoint" />
+            <mxPoint x="1175" y="1760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-10" value="第三方支付渠道" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="480" width="116" height="30" as="geometry" />
+          <mxGeometry x="1117" y="480" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vybOab_Kj2c5safNkpu3-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -227,18 +227,18 @@
             <mxPoint x="43" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-3" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-3" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="800" as="sourcePoint" />
             <mxPoint x="530" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-4" value="返回收银台地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-hgKkbOx_Ee55NommrP0-3">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-4" value="返回收银台地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-hgKkbOx_Ee55NommrP0-3" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="-38" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="983" y="930" as="sourcePoint" />
             <mxPoint x="983" y="954" as="targetPoint" />
@@ -250,29 +250,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-6" value="支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-hgKkbOx_Ee55NommrP0-5">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-6" value="支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-hgKkbOx_Ee55NommrP0-5" vertex="1" connectable="0">
           <mxGeometry x="-0.0168" y="-1" relative="1" as="geometry">
             <mxPoint x="32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-7" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-7" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="967.5" y="970" as="sourcePoint" />
             <mxPoint x="535.5" y="970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-8" value="返回用户支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-hgKkbOx_Ee55NommrP0-7">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-8" value="返回用户支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-hgKkbOx_Ee55NommrP0-7" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="-185" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-9" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-9" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="1058" as="sourcePoint" />
             <mxPoint x="750" y="1058" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-hgKkbOx_Ee55NommrP0-10" value="用户主动查询到支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-hgKkbOx_Ee55NommrP0-9">
+        <mxCell id="-hgKkbOx_Ee55NommrP0-10" value="用户主动查询到支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-hgKkbOx_Ee55NommrP0-9" vertex="1" connectable="0">
           <mxGeometry x="-0.3204" y="-1" relative="1" as="geometry">
             <mxPoint x="33" y="-2" as="offset" />
           </mxGeometry>
