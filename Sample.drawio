@@ -1,9 +1,180 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="CFa5neN3JxGisTMlxspN">
-    <mxGraphModel>
+    <mxGraphModel dx="1171" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-38" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="105" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-34" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="105" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-1" value="Warehouse Management System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="254" y="93" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-2" target="JnytoQ4aI-JfdTSU2bZD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-2" value="&amp;nbsp;Receive Order From Upstream" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-3" value="Inbound Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-4" target="JnytoQ4aI-JfdTSU2bZD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-4" value="Receive Goods" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-6" target="JnytoQ4aI-JfdTSU2bZD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-6" value="Check Goods Quality" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-8" value="Shlef /&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Putaway&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="681" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-10" value="Outbound Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-12" target="JnytoQ4aI-JfdTSU2bZD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-12" value="Receive Order From Upstream System&lt;div&gt;(OMS)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-14" target="JnytoQ4aI-JfdTSU2bZD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-14" value="Match Inventory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-16" target="JnytoQ4aI-JfdTSU2bZD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-16" value="Consolidate Outbound Orders&lt;div&gt;Pick-Up Worksheet&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-17" target="JnytoQ4aI-JfdTSU2bZD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-17" value="Pick Up SKU one by One" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="681" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-18" target="JnytoQ4aI-JfdTSU2bZD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-18" value="Re-sort the SKUs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="881" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-20" target="JnytoQ4aI-JfdTSU2bZD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-20" value="Package" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-22" target="JnytoQ4aI-JfdTSU2bZD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-22" value="Dispatch Goods" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-24" value="Deliver to Customer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1481" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-26" value="Basic Managment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="289" y="760" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-27" value="Inventory Checking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-28" value="Inventory Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-30" target="JnytoQ4aI-JfdTSU2bZD-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-33" value="Push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnytoQ4aI-JfdTSU2bZD-32">
+          <mxGeometry x="-0.255" relative="1" as="geometry">
+            <mxPoint x="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-30" value="Ali Express / SHEIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-31" target="JnytoQ4aI-JfdTSU2bZD-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-31" value="Receive Order From E-Commence Platform" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-35" value="OMS in CN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="88" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-36" value="Receive Order From OMS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1778" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-39" value="WMS US" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1804" y="88" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-40" target="JnytoQ4aI-JfdTSU2bZD-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-40" value="Dispatch Service&lt;div&gt;(HTTP)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-43" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="60" width="350" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-44" value="Gateway App&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="83" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-49" value="Add" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-46" target="JnytoQ4aI-JfdTSU2bZD-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-46" value="Inbound" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-50" value="Substract" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-47" target="JnytoQ4aI-JfdTSU2bZD-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-47" value="Outbound" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-48" value="Basic" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2165" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-51" value="Intelligent App&lt;div&gt;(Recommandation)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="250" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52" target="JnytoQ4aI-JfdTSU2bZD-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2645" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52" target="JnytoQ4aI-JfdTSU2bZD-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-52" value="Gateway App&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="82" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-53" value="Shiro(Auth)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2458" y="217" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-56" value="Ribbon" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="217" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-58" value="Nacos" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2725" y="217" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
