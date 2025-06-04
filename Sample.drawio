@@ -140,7 +140,7 @@
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-47" value="Outbound" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2280" y="160" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JnytoQ4aI-JfdTSU2bZD-48" value="Inventory" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-48" value="Inventory&lt;div&gt;（库存）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2165" y="160" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-51" value="Intelligent&lt;div&gt;(Recommandation)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
