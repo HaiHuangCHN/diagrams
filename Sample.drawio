@@ -131,13 +131,13 @@
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-43" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" parent="1" vertex="1">
           <mxGeometry x="2020" y="60" width="350" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="JnytoQ4aI-JfdTSU2bZD-44" value="Gateway App/ Zuul&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-44" value="Gateway App - Zuul&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2050" y="83" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-46" value="Inbound&lt;div&gt;（入库）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2050" y="160" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JnytoQ4aI-JfdTSU2bZD-47" value="Outbound" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-47" value="Outbound&lt;div&gt;（出库）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2280" y="160" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-48" value="Inventory&lt;div&gt;（库存）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
