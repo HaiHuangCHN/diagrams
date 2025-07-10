@@ -26,8 +26,16 @@
             <mxPoint x="-2" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qv5NDMWRORHwQcXMOr7v-4" value="数组是否为空" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-4" value="数组是否为空？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="290" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-6" target="Qv5NDMWRORHwQcXMOr7v-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="380" />
+              <mxPoint x="505" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Qv5NDMWRORHwQcXMOr7v-6" value="初始化数组" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="285" width="120" height="60" as="geometry" />
@@ -71,14 +79,47 @@
         <mxCell id="Qv5NDMWRORHwQcXMOr7v-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-17" target="Qv5NDMWRORHwQcXMOr7v-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qv5NDMWRORHwQcXMOr7v-17" value="key 是否相等" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-17" value="key 是否相等？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="705" y="420" width="145" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qv5NDMWRORHwQcXMOr7v-19" value="覆盖 value&lt;div&gt;返回旧值&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="942.5" y="415" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qv5NDMWRORHwQcXMOr7v-23" value="是否红黑树" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-23" target="Qv5NDMWRORHwQcXMOr7v-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-23" target="Qv5NDMWRORHwQcXMOr7v-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-23" value="是否红黑树？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="420" width="162.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-29" value="放入红黑树结点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="451.25" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-31" target="Qv5NDMWRORHwQcXMOr7v-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-31" value="加入链表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="208.75" y="415" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-33" target="Qv5NDMWRORHwQcXMOr7v-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-33" target="Qv5NDMWRORHwQcXMOr7v-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-33" value="节点 &amp;gt;= 8?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="560" width="162.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qv5NDMWRORHwQcXMOr7v-35" target="Qv5NDMWRORHwQcXMOr7v-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-35" value="转成红黑树" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="208.75" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv5NDMWRORHwQcXMOr7v-39" value="加入链表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
