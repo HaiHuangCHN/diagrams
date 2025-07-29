@@ -13,6 +13,9 @@
         <mxCell id="S3pOVPXhVrXH7qhH_eUo-2" value="创建库存的时候如果该xxx下没有库存记录，则需要创建，创建采用 CAS，直到创建成功为主，并返回这条创建成功的记录" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="440" width="670" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="S3pOVPXhVrXH7qhH_eUo-3" value="inbound_version&lt;div&gt;outbound_version&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="503" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
