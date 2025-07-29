@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gQPDTsF6S-w0GrX3g2vf-1" value="如果说，入库服务调用库存服务后，入库已经成功发送请求，库存接收到请求，但随后，网络中断，此时入库服务发起重试&lt;div&gt;答：幂等表&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="gQPDTsF6S-w0GrX3g2vf-1" value="如果说，入库服务调用库存服务后，入库已经成功发送请求，库存接收到请求，但随后，网络中断，此时入库服务发起重试&lt;div&gt;答：库存服务新增幂等表&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="79" y="160" width="670" height="40" as="geometry" />
         </mxCell>
       </root>
