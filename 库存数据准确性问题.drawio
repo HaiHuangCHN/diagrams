@@ -1,23 +1,50 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="第 1 页" id="c-BpHQU8_sRfOBIsOLw9">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1115" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gQPDTsF6S-w0GrX3g2vf-1" value="如果说，入库服务调用库存服务后，入库已经成功发送请求，库存接收到请求，但随后，网络中断，此时入库服务发起重试&lt;div&gt;答：库存服务新增幂等表&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="79" y="160" width="670" height="40" as="geometry" />
+          <mxGeometry x="69" y="580" width="670" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S3pOVPXhVrXH7qhH_eUo-1" value="两种调用方式：&lt;div&gt;第一种：HTTP（采用这一种）&lt;/div&gt;&lt;div&gt;好处：&lt;/div&gt;&lt;div&gt;坏处：服务不解耦，异步阻塞&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第二种：MQ&lt;/div&gt;&lt;div&gt;好处：服务解耦，异步不阻塞&lt;/div&gt;&lt;div&gt;坏处：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="79" y="270" width="190" height="130" as="geometry" />
+        <mxCell id="S3pOVPXhVrXH7qhH_eUo-1" value="两种调用方式：&lt;div&gt;第一种：HTTP（采用这一种）&lt;/div&gt;&lt;div&gt;好处：&lt;/div&gt;&lt;div&gt;坏处：服务不解耦，异步阻塞&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;第二种：MQ&lt;/div&gt;&lt;div&gt;好处：服务解耦，异步不阻塞&lt;/div&gt;&lt;div&gt;坏处：&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="88" y="640" width="190" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="S3pOVPXhVrXH7qhH_eUo-3" value="&lt;div&gt;version&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;inbound_version&lt;div&gt;outbound_version&lt;/div&gt;&lt;div&gt;？？？&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="79" y="525" width="120" height="110" as="geometry" />
+        <mxCell id="S3pOVPXhVrXH7qhH_eUo-3" value="&lt;div&gt;version&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;inbound_version&lt;div&gt;outbound_version&lt;/div&gt;&lt;div&gt;？？？&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="88" y="895" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="S3pOVPXhVrXH7qhH_eUo-4" value="&lt;div&gt;创建库存的时候如果该xxx下没有库存记录，则需要创建，创建采用 CAS，直到创建成功为主，并返回这条创建成功的记录&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;锁：&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;入库锁（事务 + 乐观锁）：&lt;/div&gt;&lt;div&gt;接单：加库存流水 +（加库存记录）+ 更新在途库存（加）&lt;/div&gt;&lt;div&gt;其中：加（库存记录）需要用分布式锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;上架：加库存流水 +&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新在途库存（减）&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ 更新可用库存（加）+ 更新 Redis 可用库存（加，异步）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;出库锁（&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;事务 +&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;乐观锁）：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;更新 Redis 可用库存（减，异步）&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;预占：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;实占库存（加） +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新可用库存（减）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;出库：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;实占库存（减）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="79" y="670" width="670" height="260" as="geometry" />
+        <mxCell id="S3pOVPXhVrXH7qhH_eUo-4" value="&lt;div&gt;创建库存的时候如果该xxx下没有库存记录，则需要创建，创建采用 CAS，直到创建成功为主，并返回这条创建成功的记录&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;锁：&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;入库锁（事务 + 乐观锁）：&lt;/div&gt;&lt;div&gt;接单：加库存流水 +（加库存记录）+ 更新在途库存（加）&lt;/div&gt;&lt;div&gt;其中：加（库存记录）需要用分布式锁&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;上架：加库存流水 +&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新在途库存（减）&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ 更新可用库存（加）+ 更新 Redis 可用库存（加，异步）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;出库锁（&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;事务 +&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;乐观锁）：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;更新 Redis 可用库存（减，异步）&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;预占：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;实占库存（加） +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新可用库存（减）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;出库：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;实占库存（减）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="88" y="1040" width="670" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="S3pOVPXhVrXH7qhH_eUo-5" value="怎么保证 Redis 库存和 MySQL 库存的一致性？&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;简单讲：失败就重试&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 将 MySQL 库存刷到 Redis 库存上，出库请求无数据/无可用库存，不给下单&lt;/div&gt;&lt;div&gt;2. 上架：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新 Redis 库存失败，重试&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. 出库：更新 MySQL 库存失败，重试&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="79" y="980" width="440" height="110" as="geometry" />
+        <mxCell id="S3pOVPXhVrXH7qhH_eUo-5" value="怎么保证 Redis 库存和 MySQL 库存的一致性？&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;简单讲：失败就重试&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. 将 MySQL 库存刷到 Redis 库存上，出库请求无数据/无可用库存，不给下单&lt;/div&gt;&lt;div&gt;2. 上架：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新 Redis 库存失败，重试&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. 出库：更新 MySQL 库存失败，重试&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="88" y="1350" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p-t5Ocdn4q4FvBsq2-UQ-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="450" as="sourcePoint" />
+            <mxPoint x="160" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-t5Ocdn4q4FvBsq2-UQ-2" value="OMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="134" y="48" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p-t5Ocdn4q4FvBsq2-UQ-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="450" as="sourcePoint" />
+            <mxPoint x="309" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-t5Ocdn4q4FvBsq2-UQ-4" value="库存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="283" y="48" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p-t5Ocdn4q4FvBsq2-UQ-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="450" as="sourcePoint" />
+            <mxPoint x="386" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-t5Ocdn4q4FvBsq2-UQ-6" value="Redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="48" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
