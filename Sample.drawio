@@ -85,8 +85,8 @@
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-24" value="Deliver to Customer" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1481" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JnytoQ4aI-JfdTSU2bZD-26" value="Basic Managment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="289" y="760" width="180" height="40" as="geometry" />
+        <mxCell id="JnytoQ4aI-JfdTSU2bZD-26" value="Inventory Managment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="269" y="760" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-27" value="Inventory Checking" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="630" width="120" height="60" as="geometry" />
