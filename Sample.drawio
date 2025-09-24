@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="CFa5neN3JxGisTMlxspN">
-    <mxGraphModel dx="900" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2340" dy="1352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,48 +129,48 @@
           <mxGeometry x="1470" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-43" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" parent="1" vertex="1">
-          <mxGeometry x="2020" y="60" width="350" height="300" as="geometry" />
+          <mxGeometry x="2073" y="60" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-44" value="Gateway App - Zuul&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="83" width="290" height="60" as="geometry" />
+          <mxGeometry x="2103" y="83" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-46" value="Inbound&lt;div&gt;（入库）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="2103" y="160" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-47" value="Outbound&lt;div&gt;（出库）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="2333" y="160" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-48" value="Inventory&lt;div&gt;（库存）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2165" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="2218" y="160" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-51" value="Intelligent&lt;div&gt;(Recommandation)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2050" y="250" width="290" height="60" as="geometry" />
+          <mxGeometry x="2103" y="250" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52" target="JnytoQ4aI-JfdTSU2bZD-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2645" y="217" as="targetPoint" />
+            <mxPoint x="2698" y="217" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52" target="JnytoQ4aI-JfdTSU2bZD-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-52" value="Gateway App&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2500" y="82" width="290" height="60" as="geometry" />
+          <mxGeometry x="2553" y="82" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-53" value="Shiro(Auth)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2458" y="217" width="120" height="60" as="geometry" />
+          <mxGeometry x="2511" y="217" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-56" value="Ribbon" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2590" y="217" width="120" height="60" as="geometry" />
+          <mxGeometry x="2643" y="217" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-58" value="Nacos" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2725" y="217" width="120" height="60" as="geometry" />
+          <mxGeometry x="2778" y="217" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uKOPW7PVtymZnf6Dtj10-1" value="WMS（Warehouse Management System）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2065" y="30" width="250" height="30" as="geometry" />
+          <mxGeometry x="2118" y="30" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uKOPW7PVtymZnf6Dtj10-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uKOPW7PVtymZnf6Dtj10-3" target="uKOPW7PVtymZnf6Dtj10-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
