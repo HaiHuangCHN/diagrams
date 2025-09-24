@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="CFa5neN3JxGisTMlxspN">
-    <mxGraphModel dx="2340" dy="1352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1300" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,19 +132,19 @@
           <mxGeometry x="2073" y="60" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-44" value="Gateway App - Zuul&lt;div&gt;(Auth / Routing / Filtering)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2103" y="83" width="290" height="60" as="geometry" />
+          <mxGeometry x="2103" y="91" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-46" value="Inbound&lt;div&gt;（入库）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2103" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="2103" y="168" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-47" value="Outbound&lt;div&gt;（出库）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2333" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="2333" y="168" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-48" value="Inventory&lt;div&gt;（库存）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2218" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="2218" y="168" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-51" value="Intelligent&lt;div&gt;(Recommandation)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="2103" y="250" width="290" height="60" as="geometry" />
+          <mxGeometry x="2103" y="258" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JnytoQ4aI-JfdTSU2bZD-52" target="JnytoQ4aI-JfdTSU2bZD-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
