@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="CFa5neN3JxGisTMlxspN">
-    <mxGraphModel dx="571" dy="352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="900" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-38" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" parent="1" vertex="1">
-          <mxGeometry x="1730" y="105" width="230" height="210" as="geometry" />
+          <mxGeometry x="1730" y="95" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-34" value="" style="whiteSpace=wrap;html=1;rounded=1;fillStyle=zigzag-line;" parent="1" vertex="1">
-          <mxGeometry x="1135" y="105" width="230" height="210" as="geometry" />
+          <mxGeometry x="1135" y="96" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-1" value="Warehouse Management System" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="254" y="93" width="320" height="40" as="geometry" />
@@ -101,11 +101,11 @@
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-33" value="Push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JnytoQ4aI-JfdTSU2bZD-32" vertex="1" connectable="0">
           <mxGeometry x="-0.255" relative="1" as="geometry">
-            <mxPoint x="-21" as="offset" />
+            <mxPoint x="-14" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-30" value="Ali Express / SHEIN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="846" y="170" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JnytoQ4aI-JfdTSU2bZD-31" target="JnytoQ4aI-JfdTSU2bZD-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -114,13 +114,13 @@
           <mxGeometry x="1180" y="170" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-35" value="OMS in CN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1208" y="89" width="80" height="30" as="geometry" />
+          <mxGeometry x="1201" y="66" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-36" value="Receive Order From OMS" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1778" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-39" value="WMS US" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1804" y="88" width="70" height="30" as="geometry" />
+          <mxGeometry x="1803" y="65" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JnytoQ4aI-JfdTSU2bZD-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JnytoQ4aI-JfdTSU2bZD-40" target="JnytoQ4aI-JfdTSU2bZD-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
